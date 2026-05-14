@@ -58,9 +58,11 @@
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=chen-foregone&show_icons=true&theme=radical)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=chen-foregone&theme=github-compact&area=true&hide_border=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=chen-foregone&layout=compact&theme=radical)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=chen-foregone&theme=dark&hide_border=true)
+
+![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=chen-foregone&theme=radical&no-frame=true&no-bg=false&margin-w=4)
 
 </div>
 
