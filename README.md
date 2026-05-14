@@ -1,7 +1,34 @@
-# Hi, I'm Chen Zhg 👋
-[![Chen Zhg's GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=chen-foregone&theme=github)](https://github.com/chen-foregone)
-<div align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chen-foregone&hide_title=true&hide_border=true&layout=compact&langs_count=6&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=graywhite" /> </div>
-<div align="center">
-    <img src="./stats.svg" />
-    <img src="./top-langs.svg" />
-</div>
+name: GitHub Stats
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=radical
+          path: stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top langs card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide_title=true&hide_border=true
+          path: top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add stats.svg top-langs.svg
+          git commit -m "Update README cards" || exit 0
+          git push
