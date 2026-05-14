@@ -1,1 +1,1 @@
-![](https://github-profile-trophy.vercel.app/?username=chen-foregone&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/api?user=chen-foregone&theme=dark&hide_border=true)
