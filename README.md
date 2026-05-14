@@ -94,12 +94,6 @@
 ![Trophy](https://github-profile-trophy.vercel.app/?username=chen-foregone&theme=radical&no-frame=true&no-bg=false&margin-w=4)
 
 </div>
-
-## 📬 联系方式
-
-[![Email](https://img.shields.io/badge/13232397520@163.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:13232397520@163.com)
-[![GitHub](https://img.shields.io/badge/chen--foregone-181717?style=flat-square&logo=github)](https://github.com/chen-foregone)
-
 ---
 
 <div align="center">
