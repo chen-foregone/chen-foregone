@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/chen-foregone">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello%2C%20World!;I'm%20Chen%20Zhongheng%20%7C%20Java%20Backend%20Engineer;Focused%20on%20AI%20Application%20Development&center=true&size=27" />
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hello%2C%20World!;I'm%20Foregone%20%7C%20Java%20Backend%20Engineer;Focused%20on%20AI%20Application%20Development&center=true&size=27" />
   </a>
 </h1>
 
