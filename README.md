@@ -60,28 +60,28 @@
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
-A backend engineer passionate about technology, focused on the **Java ecosystem** and **AI application development**. Possessing full-stack development capabilities from requirement analysis to high-concurrency production deployment. Led the architectural design and implementation of an AI digital human guided tour system independently.
+A backend engineer passionate about technology, focused on the **Java ecosystem** and **AI application development**. I have full-stack development capabilities, covering everything from requirements analysis to high-concurrency production deployment. I independently led the architecture design and implementation of an AI digital human guided tour system.
 
-## 📦 Projects
+## Projects
 
-### 🚀 Jingbanyou · AI Digital Human Interactive Tour Guide System
+### Jingbanyou - AI Digital Human Interactive Tour Guide System
 
 [![Repo](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github)](https://github.com/chen-foregone/jingbanyou-ai-tour-guide)
 
-> An intelligent scenic area guide system based on Spring AI Graph State Machine + RAG Dual-Channel Retrieval
+> An intelligent scenic area guide system based on Spring AI Graph State Machine + RAG Dual-Channel Retrieval.
 
-- **Multi-Intent Routing**: Spring AI Graph State Machine, intelligently distributes conversation intents
-- **Dual-Channel Retrieval**: RAG vector search + keyword search, precise matching of scenic spot knowledge
-- **Asynchronous Architecture**: RabbitMQ decouples message processing, supporting tens of thousands of daily requests
-- **Streaming Response**: SSE real-time push, first-token latency < 1 second
+- **Multi-Intent Routing**: Uses the Spring AI Graph State Machine to intelligently route conversation intents.
+- **Dual-Channel Retrieval**: Combines RAG vector search with keyword search for accurate scenic spot knowledge matching.
+- **Asynchronous Architecture**: Uses RabbitMQ to decouple message processing and support tens of thousands of daily requests.
+- **Streaming Response**: Uses SSE real-time push, with first-token latency under 1 second.
 
-## 🎓 Education
+## Education
 
 **Guangdong Ocean University**
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
@@ -97,6 +97,6 @@ A backend engineer passionate about technology, focused on the **Java ecosystem*
 
 <div align="center">
 
-⭐️ *Feel free to star and follow* ⭐️
+*Feel free to star and follow*
 
 </div>
